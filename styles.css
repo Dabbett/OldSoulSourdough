@@ -239,6 +239,12 @@ header {
     position: relative;
 }
 
+#product1 .pro-container .pro a {
+    display: flex;
+    justify-content: flex-end;
+    
+}
+
 #product1 .pro img {
     background-size: contain;
     width: 100%;
