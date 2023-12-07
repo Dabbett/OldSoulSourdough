@@ -16,9 +16,14 @@
                 <li><a href="blog.html">Blog</a></li>
                 <li><a href="about.html">About</a></li>
                 <li><a href="contact.html">Contact</a></li>
-                <li><a href="cart.html"><i class="fas fa-basket-shopping" alt="cart"></i> </a></li>
+                <li id="lg-bag" ><a href="cart.html"><i class="fas fa-bag-shopping" alt="cart"></i> </a></li>
+                <a href="#" id="close"><i class="fa-solid fa-x"></i></a>
             </ul>
         </nav>
+        <div id="mobile">
+            <a href="cart.html"><i class="fas fa-bag-shopping" alt="cart"></i> </a>
+            <i id="bar" class="fas fa-outdent"></i>  
+        </div>
     </header>
 
     <section id="hero">
@@ -55,7 +60,7 @@
     <section id="banner" class="section-m1">
         <h2>Fresh Baked Bread</h1>
         <h4>Hampstead, NC</h2>
-            <button>Buy Now</button>
+            <button class="normal">Buy Now</button>
     </section>
     
         
@@ -106,21 +111,22 @@
             
         </div>
     </section>
-    <!-- <div class="container">
-        
-        <section id="available-now">
-            <h2>Fresh Bread Available Now:</h2>
-            <ul id="product-list">
-                <li> Classic Sourdough Loaf </li>
-                <li> Jalapeño Cheddar </li>
-                <li> Garlic Parmesan </li>
-                <li> Cinnamon Sugar Swirl </li>
-            </ul>
-        </section>
-    </div> -->
 
     <footer>
-        <img id="logo" src="images/logo.jpeg" alt="Old Soul Sourdough Logo">
+            <div class="newstext">
+                <h3>Contact/Pick Up:</h4>
+                <h5>573-690-4002</h5>
+                <h4>376 Shoal Ave</h3>
+                <h4>Hampstead, NC</h3>
+                <h4>Instagram: Old.Soul.Sourdough</h4>
+            </div>
+            <img id="logo" src="images/logo.jpeg" alt="Old Soul Sourdough Logo">
+            <div class="form">
+                <h4>Sign up to be notified about fresh bread!</h4>
+                <input type="text" placeholder="Your E-mail Address">
+                <button class="normal">Sign Up</button>
+            </div>
+
     </footer>
 
     <script src="script.js"></script>
