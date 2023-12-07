@@ -190,7 +190,6 @@ header {
     flex: 1 0 calc(24% - 20px); 
     max-width: calc(24% - 20px); 
     min-width: 200px; 
-    /* max-width: 300px; */
     text-align: center;
     border: 1px solid #cce7d0;
     border-radius: 4px;;
@@ -401,5 +400,20 @@ footer img {
     }
     #lg-bag {
         display: none;
+    }
+    #feature {
+        justify-content: center;
+    }
+    #feature .fe-box {
+        margin: 15px;
+        min-width: 150px;
+    }   
+    #product1 .pro-container {
+        justify-content: center;
+        flex: 1 0 calc(50% - 20px);
+        max-width: calc(50% - 20px);
+    }
+    #product1 .pro {
+        margin: 15px;
     }
 }
