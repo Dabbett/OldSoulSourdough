@@ -196,7 +196,6 @@ header {
 #feature .fe-box {
     flex: 1 0 calc(24% - 20px); 
     max-width: calc(24% - 20px); 
-    min-width: 45%; 
     text-align: center;
     border: 1px solid #cce7d0;
     border-radius: 4px;
@@ -233,7 +232,7 @@ header {
     align-items: center;
     text-align: center;
     /* background-image: url(images/bannerbread.jpeg); */
-    margin: 10px 0px;
+    margin: 40px 0px;
     width: 100%;
     height: 10vh;
     background-size: cover;
@@ -359,6 +358,65 @@ footer img {
     width: 30%;
 }
 
+#cart table {
+    width: 100%;
+    border-collapse: collapse;
+    table-layout: fixed;
+    white-space: wrap;
+}
+#cart table img {
+    width: 80%;
+}
+
+#cart table td:nth-child(1) {
+    width: 10%;
+    text-align:center;
+    font-family:monospace
+}
+
+#cart table td:nth-child(2) {
+    width: 15%;
+    text-align: center;
+}
+
+#cart table td:nth-child(3) {
+    width: 20%;
+    text-align: center;
+}
+
+#cart table td:nth-child(4),
+#cart table td:nth-child(5)
+#cart table td:nth-child(6) {
+    width: 15%;
+    text-align: center;
+}
+
+#cart table td:nth-child(5) input{
+    width: 70px;
+}
+
+#cart table thead {
+    border: 2px solid white;
+    border-left: none;
+    border-right: none;
+}
+#cart table thead td {
+    font-weight: 700;
+    padding: 1px 0;
+}
+
+#cart .incr {
+    min-width: 20px
+}
+
+#about {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin: 40px 10%;
+}
+
 @media (max-width:920px) {
     #nav-list {
         display: flex;
@@ -465,6 +523,7 @@ footer img {
         margin: 5px;
         flex: 1 0 calc(20% - 20px);
         max-width: calc(20% - 20px);
+        min-width: 40%;
     }   
     #product1 .pro {
         margin: 1px;
@@ -475,3 +534,4 @@ footer img {
         max-width: calc(80% - 20px);
     }
 }
+
