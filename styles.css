@@ -358,6 +358,11 @@ footer img {
     width: 30%;
 }
 
+#instagram {
+    width: 20px;
+    margin: 0 5px 0 0;
+    
+}
 #cart table {
     width: 100%;
     border-collapse: collapse;
@@ -417,6 +422,18 @@ footer img {
     margin: 40px 10%;
 }
 
+#contact h5 {
+    margin: 20px;
+}
+
+#contact h5 img {
+    width: 20px;
+    margin: 0 5px 0 0;
+}
+
+#total {
+    text-align: right;
+}
 @media (max-width:920px) {
     #nav-list {
         display: flex;
